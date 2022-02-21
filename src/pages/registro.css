@@ -1,0 +1,43 @@
+.container{
+    margin: 20px auto 0 auto;
+    border: 1px solid rgb(229, 234, 242);
+    border-radius: 8px;
+    padding: 32px;
+    width: 500px;
+    max-width: 600px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 4px 23px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divNomeEmail{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.senha{
+    margin-top: 20px; 
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.termos{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.possuiConta{
+    margin-top: 25px;
+    display: flex;  
+}
